@@ -20,14 +20,14 @@ CRX_URL = "https://clients2.google.com/service/update2/crx?response=redirect&pro
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36"
 
 try:
-    USER = os.environ['GRASS_USER']
-    PASSW = os.environ['GRASS_PASS']
+    USER = 'judenwadinobi@gmail.com'  # Replace with your email
+    PASSW = 'Cro$$2005'          # Replace with your password
 except:
     USER = ''
     PASSW = ''
 
 try:
-    ALLOW_DEBUG = os.environ['ALLOW_DEBUG']
+    ALLOW_DEBUG = True
     if ALLOW_DEBUG == 'True':
         ALLOW_DEBUG = True
     else:
